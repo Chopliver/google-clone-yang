@@ -1,45 +1,45 @@
-import React from "react";
+import React from "react"
 
-import AppsIcon from'@material-ui/icons/Apps';
-import AvatarIcon from '@material-ui/core/Avatar';
+import AppsIcon from "@material-ui/icons/Apps"
+import AvatarIcon from "@material-ui/core/Avatar"
 
-import Search from './Search';
-import styled from 'styled-components';
-import { findByLabelText } from "@testing-library/react";
-import { CenterFocusStrong } from "@material-ui/icons";
+import styled from "styled-components"
+import Search from "./Search"
 
 const HomeContainer = styled.div`
-    display: flex;
-    flex-direction: column;
-    height: 100vh;
-`
-const HeaderContainer = styled.div`
-    display: flex;
-    justify-content: space-between;
-    padding: 20px 30px;
-    align-items: center;
-`
-const Header = styled.div`
-    display: flex;
-    align=items: center;
-    p{
-        margin-right: 20px;
-        font-size: 15px;
-    }
-    .left-margin{
-        margin-left: 20px;
-    }
+	display: flex;
+	flex-direction: column;
+	height: 100vh;
 `
 
-const BodyContainer= styled.div`
-    flex: 1;
-    display: flex;
-    margin-top: 10%;
-    flex-direction: column;
-    img {
-        object-fit: contain;
-        height: 100px;
-    }
+const HeaderContainer = styled.div`
+	display: flex;
+	justify-content: space-between;
+	padding: 20px 30px;
+	align-items: center;
+`
+
+const Header = styled.div`
+	display: flex;
+	align-items: center;
+	p {
+		margin-right: 20px;
+		font-size: 15px;
+	}
+	.left-margin {
+		margin-left: 20px;
+	}
+`
+
+const BodyContainer = styled.div`
+	flex: 1;
+	display: flex;
+	margin-top: 10%;
+	flex-direction: column;
+	img {
+		object-fit: contain;
+		height: 100px;
+	}
 `
 
 const Home = () => {
@@ -66,4 +66,4 @@ const Home = () => {
 	)
 }
 
-export default Home;
+export default Home

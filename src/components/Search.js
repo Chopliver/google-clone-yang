@@ -3,7 +3,6 @@ import MicIcon from "@material-ui/icons/Mic"
 import { Button } from "@material-ui/core"
 import styled from "styled-components"
 //import { Search } from '@material-ui/icons';
-
 import { useState } from "react"
 
 const SearchInput = styled.div`
@@ -27,7 +26,6 @@ const SearchInput = styled.div`
 		color: gray;
 	}
 `
-
 
 const SearchButton = styled.div`
 	margin-top: 20px;
@@ -74,4 +72,4 @@ const Search = ({ hide }) => {
 	)
 }
 
-export default Search;
+export default Search
